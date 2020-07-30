@@ -6,27 +6,24 @@
         <field name="inherit_id" ref="hr.view_hr_job_form"/>
         <field name="arch" type="xml">
             <xpath expr="//div[3]" position="replace">
-                <group>
-                    <group>
-                        <div attrs="{'invisible': [('state', '!=', 'recruit')]}">
-                            <label for="description"/>
-                            <field name="description"/>
-                        </div>
-                    </group>
-                    <group>
-                        <div class="o_hr_skills_group o_group_skills col-lg-5 d-flex flex-column">
-                            <separator string="Skills"/>
-                            <field mode="tree" nolabel="1" name="job_skill_ids" widget="hr_skills">
-                                <tree>
-                                    <field name="skill_type_id" invisible="1"/>
-                                    <field name="skill_id"/>
-                                    <field name="skill_level_id"/>
-                                    <field name="level_progress" widget="progressbar"/>
-                                </tree>
-                            </field>
-                        </div>
-                    </group>
-                </group>
+                <div class="row">
+                    <div class="o_hr_skills_group col-lg-7 d-flex flex-column" attrs="{'invisible': [('state', '!=', 'recruit')]}">
+                            <separator string="Stellenbeschreibung"/>
+                            <field name="description" nolabel="1" />
+                    </div>
+
+                    <div class="o_hr_skills_group o_group_skills col-lg-5 d-flex flex-column">
+                        <separator string="Skills"/>
+                        <field mode="tree" nolabel="1" name="job_skill_ids" widget="hr_skills">
+                            <tree>
+                                <field name="skill_type_id" invisible="1"/>
+                                <field name="skill_id"/>
+                                <field name="skill_level_id"/>
+                                <field name="level_progress" widget="progressbar"/>
+                            </tree>
+                        </field>
+                    </div>
+                </div>
 
             </xpath>
         </field>
