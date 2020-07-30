@@ -1,0 +1,247 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* manatec_portal
+#   * hr_timesheet
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-27 09:40+0000\n"
+"PO-Revision-Date: 2020-07-27 09:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_timesheet
+#: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_task
+msgid "<strong>Summary</strong>"
+msgstr "<strong>Summe</strong>"
+
+#. module: hr_timesheet
+#: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_task
+msgid "<strong>Planned Hours</strong>"
+msgstr "<strong>Geplante Stunden</strong>"
+
+#. module: hr_timesheet
+#: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_task
+msgid "<strong>Remaining Hours</strong>"
+msgstr "<strong>Verbleibende Stunden</strong>"
+
+#. module: hr_timesheet
+#: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_my_task
+msgid "<strong>Effective Hours</strong>"
+msgstr "<strong>Effektive Stunden</strong>"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.portal_my_task
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid "&amp;times;"
+msgstr ""
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid "(Update)"
+msgstr "(Aktualisieren)"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.portal_my_task
+msgid "<small><b>Unsubscribe from task</b></small>"
+msgstr "<small><b>Abmelden von Aufgabe</b></small>"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid "<small><b>Unsubscribe from ticket</b></small>"
+msgstr "<small><b>Abmelden von Ticket</b></small>"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid "<span>Not specified</span>"
+msgstr "<span>Keine Angabe</span>"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid "<strong class=\"col-lg-2\">Priority</strong>"
+msgstr "<strong class=\"col-lg-2\">Priorität</strong>"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.portal_my_task
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid "Close"
+msgstr "Schließen"
+
+#. module: manatec_portal
+#: code:addons/manatec_portal/controllers/portal.py:0
+#, python-format
+msgid "Customer (%s) has unsubscribed from task."
+msgstr "Kunde (%s) hat sich von Aufgabe abgemeldet."
+
+#. module: manatec_portal
+#: code:addons/manatec_portal/controllers/portal.py:0
+#, python-format
+msgid "Customer (%s) has unsubscribed from ticket."
+msgstr "Kunde (%s) hat sich von Ticket abgemeldet."
+
+#. module: manatec_portal
+#: code:addons/manatec_portal/controllers/portal.py:0
+#, python-format
+msgid "Customer (%s) has update the priority from %s to %s."
+msgstr "Kunde (%s) hat die Priorität von %s auf %s aktualisiert."
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.portal_my_task
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid "Discard"
+msgstr "Abbrechen"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.portal_my_task
+msgid ""
+"Do you want to unsubscribe from the task and remove it from your overview?"
+msgstr ""
+"Möchten Sie sich von der Aufgabe abmelden und sie aus Ihrer Übersicht "
+"entfernen?"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid ""
+"Do you want to unsubscribe from the ticket and remove it from your overview?"
+msgstr ""
+"Möchten Sie sich von dem Ticket abmelden und es aus Ihrer Übersicht "
+"entfernen?"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.ticket_submit
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid "High Priority"
+msgstr "Hohe Priorität"
+
+#. module: manatec_portal
+#: code:addons/manatec_portal/controllers/portal.py:0
+#, python-format
+msgid "Last Stage Update"
+msgstr "Aktuellste Stufenaktualisierung"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.ticket_submit
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid "Low Priority"
+msgstr "Niedrige Priorität"
+
+#. module: manatec_portal
+#: code:addons/manatec_portal/controllers/portal.py:0
+#, python-format
+msgid "Month"
+msgstr "Monat"
+
+#. module: manatec_portal
+#: code:addons/manatec_portal/controllers/portal.py:0
+#, python-format
+msgid "Newest"
+msgstr "Aktuellste"
+
+#. module: manatec_portal
+#: code:addons/manatec_portal/controllers/portal.py:0
+#, python-format
+msgid "None"
+msgstr "Keine"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.ticket_submit
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid "Not specified"
+msgstr "Keine Angabe"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.ticket_submit
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid "Priority"
+msgstr "Priorität"
+
+#. module: manatec_portal
+#: code:addons/manatec_portal/controllers/portal.py:0
+#, python-format
+msgid "Search <span class=\"nolabel\"> (in Content)</span>"
+msgstr "Inhalt durchsuchen"
+
+#. module: manatec_portal
+#: code:addons/manatec_portal/controllers/portal.py:0
+#, python-format
+msgid "Search ID"
+msgstr "ID suchen"
+
+#. module: manatec_portal
+#: code:addons/manatec_portal/controllers/portal.py:0
+#, python-format
+msgid "Search in All"
+msgstr "Alle durchsuchen"
+
+#. module: manatec_portal
+#: code:addons/manatec_portal/controllers/portal.py:0
+#, python-format
+msgid "Search in Customer"
+msgstr "Kunden durchsuchen"
+
+#. module: manatec_portal
+#: code:addons/manatec_portal/controllers/portal.py:0
+#, python-format
+msgid "Search in Messages"
+msgstr "Nachrichten durchsuchen"
+
+#. module: manatec_portal
+#: code:addons/manatec_portal/controllers/portal.py:0
+#, python-format
+msgid "Search in Stages"
+msgstr "Stufen durchsuchen"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid "Select the new priority for this ticket:"
+msgstr "Wählen Sie die neue Priorität für dieses Ticket aus:"
+
+#. module: manatec_portal
+#: code:addons/manatec_portal/controllers/portal.py:0
+#, python-format
+msgid "Stage"
+msgstr "Stufe"
+
+#. module: manatec_portal
+#: code:addons/manatec_portal/controllers/portal.py:0
+#, python-format
+msgid "Subject"
+msgstr "Betreff"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.portal_my_task
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid "Unsubscribe"
+msgstr "Abmelden"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.portal_my_task
+msgid "Unsubscribe from task"
+msgstr "Abmelden von Aufgabe"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid "Unsubscribe from ticket"
+msgstr "Abmelden von Ticket"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid "Update"
+msgstr "Aktualisieren"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid "Update ticket priority"
+msgstr "Ticket-Priorität aktualisieren"
+
+#. module: manatec_portal
+#: model_terms:ir.ui.view,arch_db:manatec_portal.ticket_submit
+#: model_terms:ir.ui.view,arch_db:manatec_portal.tickets_followup
+msgid "Urgent"
+msgstr "Dringend"
